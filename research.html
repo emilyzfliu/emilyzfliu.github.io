@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<title>emizfliu - research</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Emily Liu</h1>
+
+    <h1>Research</h1>
+    <p> Much of my research has been on representation learning. In the past, I worked with applying latent variable models 
+        to computer vision tasks with uses in a robotics manipulation setting. Recently, I became interested in causal 
+        machine learning, and integrating causality with latent variable models in the form of causal representation learning. 
+        My current ongoing research project with the Uhler group at MIT applies causal representation learning to the biological 
+        field, where the ability to generalize out-of-distribution allows for scientists to predict the effect of genetic interventions 
+        before they are applied to physical cells.</p>
+
+    <h2>Causal Representation Learning for Predicting Genetic Perturbation Effects on Single Cells</h2>
+    <p>Incorporating ideas from causal inference into representation learning is a promising area of research,
+        especially for out-of-distribution generalization in gene transcriptomic datasets. In this project, I investigated a new causal representation
+        learning technique that builds upon a conditional variational autoencoder but makes use of a causal graph over the genes of interest.
+        The architecture of the neural network reflects a different probabilistic generative model where a causal variable is introduced into the
+        latent space by applying single-node shift interventions to the latent basal variable, which is the latent variable associated with the unperturbed
+        distribution, and learning the associated structural causal model. The causal model has the potential to generalize out-of-distribution 
+        better than current non-causal benchmarks, which is useful since the out-of-distribution task is the most similar to real-world applications in drug discovery.</p>
+    <p>This project is currently a work in progress under the guidance of Jiaqi Zhang with the Uhler group, but we have some exciting results in the pipeline!</p>
+
+    <h2>Structured Latent Variable Models for Articulated Object Interaction</h2>
+    <p>
+        In this project, I investigated a scenario in which a robot learns a low-dimensional representation of a door given a video of the door
+        opening or closing. This representation can be used to infer door-related parameters and predict the outcomes of interacting with the door.
+        Current machine learning based approaches in the doors domain are based primarily on labelled datasets. However, the large quantity of available
+        door data suggests the feasibility of a semisupervised approach based on pretraining. To exploit the hierarchical structure of the dataset where
+        each door has multiple associated images, we pretrain with a structured latent variable model known as a neural statistician. The neural satsitician
+        enforces separation between shared context-level variables (common across all images associated with the same door) and instance-level variables (unique
+        to each individual image). We first demonstrate that the neural statistician is able to learn an embedding that enables reconstruction and sampling of realistic door images.
+        Then, we evaluate the correspondence of the learned embeddings to human-interpretable parameters in a series of supervised inference tasks. It was found that a pretrained
+        neural statistician encoder outperformed analogous context-free baselines when predicting door handedness, size, angle location, and configuration from door images.
+        Finally, in a visual bandit door-opening task with a variety of door configuration, we found that neural statistician embeddings achieve lower regret than context-free baselines.</p>
+        <p>This project was under the guidance of Michael Noseworthy in the Robust Robotics Group at MIT under Dr. Nicholas Roy.</p>
+        <p>For more detail, a paper can be found<b><a href="https://arxiv.org/abs/2305.16567">here.</a></b></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p><a href="index.html">Back to home</a></p>
+</body>
+</html>

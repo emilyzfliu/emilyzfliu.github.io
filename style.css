@@ -1,0 +1,57 @@
+h1 {
+    color: navy;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Verdana;
+}
+
+p {
+    /* color: navy; */
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Verdana
+}
+
+li {
+    /* color: navy; */
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Verdana
+}
+
+h2 {
+    color: navy;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Verdana
+}
+
+
+
+a:link {
+    color: navy;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  a:visited {
+    color: navy;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  a:hover {
+    color: navy;
+    background-color: lightgray;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  a:active {
+    color: navy;
+    background-color: lightgray;
+    text-decoration: underline;
+    padding: 5px;
+  }
