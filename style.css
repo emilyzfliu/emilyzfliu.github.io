@@ -26,7 +26,31 @@ h2 {
     font-family: Verdana
 }
 
+button {
+  background-color: lightgray;
+  border-color: lightgray;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
+button:hover {
+  background-color: darkgray;
+  border-color: darkgray;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /* border: 3px solid green; */
+}
 
 a:link {
     color: navy;
@@ -44,7 +68,7 @@ a:link {
   
   a:hover {
     color: navy;
-    background-color: lightgray;
+    background-color: darkgray;
     text-decoration: none;
     padding: 5px;
   }
