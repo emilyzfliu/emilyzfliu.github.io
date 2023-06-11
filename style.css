@@ -26,6 +26,14 @@ h2 {
     font-family: Verdana
 }
 
+
+h3 {
+  color: navy;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Verdana
+}
+
 button {
   background-color: lightgray;
   border-color: lightgray;
