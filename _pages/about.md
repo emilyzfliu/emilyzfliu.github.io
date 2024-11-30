@@ -13,7 +13,7 @@ I am passionate about developing algorithms to make machine learning models more
 
 Through my projects, I have explored the tradeoffs between domain-specific priors and model flexibility, balancing performance, scalability, and interpretability. My goal is to bridge the gap between cutting-edge ML methods and practical, trustworthy applications.
 
-Find an up-to-date version of my CV [here](https://drive.google.com/file/d/1wYJQipNUvEBROWp9lUs9HCHFdEFFvl6h).
+Find an up-to-date version of my CV [here](/files/cv.pdf).
 
 <!-- I am driven by the interdisciplinary nature of machine learning and its potential to transform how we understand and interact with complex systems, from biological processes to engineered environments. As I continue my journey, I aspire to contribute to a future where AI systems are not only powerful but also safe and transparent. -->
 
