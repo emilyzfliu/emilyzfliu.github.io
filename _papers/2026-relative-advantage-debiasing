@@ -4,7 +4,7 @@ collection: papers
 # category: manuscripts
 permalink: /_papers/2026-relative-advantage-debiasing
 excerpt: 'This work tackles the challenge of using watch time as a signal for user preference in video recommendation systems. Raw watch time is heavily influenced by factors like video length, popularity, and individual user habits, which can distort what users actually enjoy. We introduce a relative-advantage debiasing framework that compares a user’s watch time to reference distributions conditioned on similar users and items, producing a quantile-based, more reliable measure of preference. Our two-stage architecture cleanly separates the tasks of distribution estimation and preference learning, and we further develop distributional embeddings that make quantile prediction efficient without storing historical data. Both offline and live experiments show substantial gains in accuracy and robustness over existing approaches.'
-# date: '2025-01-01'
+date: '2026-01-20'
 venue: 'AAAI 2026'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/pdf/2508.11086'
