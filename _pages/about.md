@@ -7,11 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a current Master's of Engineering student in Computer Science at MIT, under the supervision of Dr. Caroline Uhler. I received my B.S. degrees in Computer Science and Mathematics from MIT in 2024.
+I am a machine learning researcher and engineer interested in developing a scientific understanding of how large models learn, represent information, and generalize. My background spans efficient training and inference, representation learning, and robustness under distribution shift. More recently, my interests have expanded toward mechanistic interpretability, online and continual learning in foundation models and recommender systems, and the science of generalization in large-scale models. I am especially interested in the algorithmic principles that allow models to scale reliably while remaining computationally tractable and environmentally responsible.
 
-I am passionate about developing algorithms to make machine learning models more interpretable and robust, particularly in robotics and life science applications. My work spans representation learning, causal inference, and neural network optimization, with a focus on creating models that generalize well under distributional shifts.
-
-Through my projects, I have explored the tradeoffs between domain-specific priors and model flexibility, balancing performance, scalability, and interpretability. My goal is to bridge the gap between cutting-edge ML methods and practical, trustworthy applications.
+I completed my Master of Engineering in Computer Science at MIT, advised by Dr. Caroline Uhler, where my thesis examined causal representation learning for predicting the effects of genetic perturbations in single cells. I also hold bachelor’s degrees in Computer Science and Mathematics from MIT. Currently, I work at ByteDance on large-scale recommendation and multimodal LLM-based ranking models, focusing on model optimization, debiasing, and production reliability. My broader goal is to connect rigorous scientific understanding with practical, trustworthy, and sustainable model deployment at scale.
 
 Find an up-to-date version of my CV [here](https://drive.google.com/file/d/1wYJQipNUvEBROWp9lUs9HCHFdEFFvl6h).
 
