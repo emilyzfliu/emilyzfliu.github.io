@@ -1,0 +1,21 @@
+---
+title: "Relative Advantage Debiasing for Watch-Time Prediction in Short-Video Recommendation"
+collection: papers
+# category: manuscripts
+permalink: /_papers/2026-relative-advantage-debiasing
+excerpt: 'Under Review.'
+# date: '2025-01-01'
+venue: 'AAAI 2026'
+# slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
+# paperurl: 'https://arxiv.org/pdf/2305.16567'
+citation: 'Relative Advantage Debiasing for Watch-Time Prediction in Short-Video Recommendation. Emily Liu, Kuan Han, Minfeng Zhan, Bocheng Zhao, Guanyu Mu, Yang Song. Association for the Advancement of Artificial Intelligence (AAAI) Conference 2026.'
+---
+
+Watch time is widely used as a proxy for user satisfaction in video recommendation platforms. However, raw watch times
+are influenced by confounding factors such as video duration, popularity, and individual user behaviors, potentially
+distorting preference signals and resulting in biased recommendation models. We propose a novel relative advantage
+debiasing framework that corrects watch time by comparing it to empirically derived reference distributions conditioned
+on user and item groups. This approach yields a quantilebased preference signal and introduces a two-stage architecture that 
+explicitly separates distribution estimation from preference learning. Additionally, we present distributional embeddings to 
+efficiently parameterize watch-time quantiles without requiring online sampling or storage of historical data. 
+Both offline and online experiments demonstrate significant improvements in recommendation accuracy and robustness compared to existing baseline methods.

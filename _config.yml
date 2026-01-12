@@ -24,8 +24,8 @@ author:
   avatar           : "profile.jpeg"
   name             : "Emily Liu"
   pronouns         : # example: "she/her"  
-  bio              : 'M.Eng. in Computer Science at MIT.'
-  location         : 'Cambridge, MA'
+  bio              : 'Machine learning engineer'
+  location         : 'San Jose, CA'
   employer         : #
   uri              : # URL
   email            : "emily.zf.liu@gmail.com" 
