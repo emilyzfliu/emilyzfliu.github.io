@@ -4,7 +4,7 @@ collection: papers
 # category: manuscripts
 permalink: /_papers/2026-causal-variational-inference
 excerpt: 'Understanding how genes interact and respond to perturbations is crucial for uncovering the mechanisms of cells and identifying potential ways to treat diseases. Recent advances in sequencing technologies now allow us to measure how individual cells react when specific genes are altered. However, making sense of this complex data requires advanced computational tools. In our work, we address the challenge of predicting how cells respond to potentially new untested genetic perturbations. We noticed that while deep learning models perform well on data measured before, they struggle with making predictions on new cases. On the other hand, models based on biological understanding can, in theory, make better predictions, but they often rely on overly simple assumptions that do not hold with real-world data. We developed a new method that combines the strengths of both approaches. Our model, called SCCVAE, uses knowledge of gene networks together with deep learning to better predict how cells will respond to gene changes. It can simulate new experiments and help identify groups of genes that work together. This tool could be valuable for researchers studying perturbational changes, as well as gene functions and diseases.'
-# date: '2025-01-01'
+date: '2026-02-02'
 venue: 'PLOS Computational Biology'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013194'
