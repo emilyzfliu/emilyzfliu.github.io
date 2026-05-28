@@ -1,0 +1,17 @@
+---
+layout: archive
+title: "Blog"
+permalink: /posts/
+author_profile: true
+---
+
+Collection of all my personal project writeups.
+
+{% include base_path %}
+
+{% for post in site.posts reversed %}
+  <article>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p>{{ post.date | date: "%B %d, %Y" }}</p>
+  </article>
+{% endfor %}
