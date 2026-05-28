@@ -7,6 +7,9 @@
 main:
   - title: "Paper and Publications"
     url: /papers/
+  
+  - title: "Blog"
+    url: /posts/
 
   - title: "Talks and Teaching"
     url: /teaching/    
